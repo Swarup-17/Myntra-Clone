@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        .main{
+            height: 70px;
+            width: 1340px;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .logo{
+            height: 40px;
+            width: 50px;
+            display: flex;
+            align-items: center;
+            margin-left: 40px;
+        }
+        .about{
+            height: 60px;
+            width: 90px;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            margin-left: 60px;
+        }
+        .coll{
+            height: 60px;
+            width: 100px;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            margin-left: 50px;
+        }
+        .sign{
+            height: 60px;
+            width: 80px;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            margin-left: 50px;
+        }
+        .log{
+            height: 60px;
+            width: 70px;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            margin-left: 60px;
+        }
+        .text{
+            height: 30px;
+            width: 300px;
+            border-radius: 5px;
+            margin-left: 90px;
+        }
+        .about:hover{
+            color: black;
+            border-radius: 60px;
+            background-color: rgb(201, 199, 199);
+        }
+        .coll:hover{
+            color: black;
+            border-radius: 60px;
+            background-color: rgb(201, 199, 199);
+        }
+        .sign:hover{
+            color: black;
+            border-radius: 60px;
+            background-color: rgb(201, 199, 199);
+        }
+        .log:hover{
+            color: black;
+            border-radius: 50px;
+            background-color: rgb(201, 199, 199);
+        }
+        .field{
+            display: flex;
+            align-items: center;
+            background-color: rgb(243, 214, 204);
+            height: 540px;
+            width: 1350px;
+        }
+        .form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 450px;
+            width: 400px;
+            margin-left: 350px;
+            background: white;
+            box-shadow: 10px 10px 10px gray;
+            border-radius: 20px;
+        }
+        .title{
+            display: flex;
+            margin-top: 5px;
+            justify-content: center;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgba(0, 0, 0, 0.747);      
+        }
+        .first{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            height: 30px;
+            width: 200px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .last{
+            display: flex;
+            justify-content: center;
+            height: 30px;
+            width: 200px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .phone{
+            display: flex;
+            justify-content: center;
+            height: 30px;
+            width: 200px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .pass{
+            display: flex;
+            justify-content: center;
+            height: 30px;
+            width: 200px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .check{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: black;
+        }
+        .submit{
+            height: 30px;
+            width: 100px;
+            font-size: 20px;
+            background-color: rgb(238, 91, 120);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .reset{
+            height: 30px;
+            width: 100px;
+            font-size: 20px;
+            margin-left: 10px;
+            background-color: rgb(238, 91, 120);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .submit:hover{
+            background-color: rgb(241, 30, 79);
+            cursor: pointer;
+        }
+        .reset:hover{
+            background-color: rgb(241, 30, 79);
+            cursor: pointer;
+        }
+        .prev{
+            border-radius: 50px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(141, 154, 155);
+            height: 50px;
+            width: 90px;
+            margin-top: 450px;
+            margin-left: 40px;
+        }
+        .next{
+            border-radius: 50px;
+            background-color: cadetblue;
+            height: 50px;
+            width: 90px;
+            margin-top: 450px;
+            margin-left: 350px;
+        }
+        .prev:hover{
+            cursor: pointer;
+            background-color: rgb(223, 223, 231);
+        }
+        .next:hover{
+            cursor: pointer;
+            background-color: rgb(223, 223, 231);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <a class="logo" href="Homepage1.html"><img src="ProjectImg/logo-myntra.png" height="40px" width="60px"></a>
+        <a class="about" href="AboutUs2.html">ABOUT US</a>
+        <a class="coll" href="Collection3.html">COLLECTION</a>
+        <a class="sign" href="Signup4.html">SIGN UP</a>
+        <a class="log" href="Login5.html">LOGIN</a>
+        <input class="text" type="search" placeholder="Search for products, brands & more">
+    </div><hr>
+
+    <div class="field">
+        <button class="prev"><a href="Collection3.html">PREVIOUS</a></button>
+
+        <div class="form" align="center">
+            <form><legend class="title" align="center">SIGN UP</legend>
+            <div ><input class="first" type="text" placeholder="Enter your First Name" maxlength="10"></div><br>
+            <div ><input class="last" type="text" placeholder="Enter your Last Name" maxlength="10"></div><br>
+            <div ><input class="phone" type="tel" placeholder="Enter your Mobile Number" maxlength="10"></div><br>
+            <div ><input class="pass" type="password" placeholder="Enter your password" maxlength="8"></div><br>
+            <div class="check"><input type="checkbox">I agree to the Terms of use and Privacy Policy</div><br>
+            <input class="submit "type="submit">
+            <input class="reset" type="reset">
+        </form></div>
+
+        <button class="next"><a href="Login5.html">NEXT</a></button>
+    </div>
+</body>
+</html>
